@@ -244,17 +244,8 @@
 }'></textarea>
     <div id="import-error" style="display:none;margin-top:8px;font-size:12px;color:var(--danger)"></div>
     <div class="form-row" style="margin-top:16px">
-      <button class="btn btn-ghost" id="btn-import-cancel" onclick="document.getElementById('dialog-import').classList.add('hidden')">Cancel</button>
-      <button class="btn btn-primary" id="btn-import-confirm" onclick="
-        var raw = document.getElementById('import-json-input').value.trim();
-        var err = document.getElementById('import-error');
-        if (!raw) { err.textContent='Paste JSON first'; err.style.display='block'; return; }
-        try {
-          var project = Storage.importProject(JSON.parse(raw));
-          document.getElementById('dialog-import').classList.add('hidden');
-          App.openProjectById(project.id);
-        } catch(e) { err.textContent='Invalid JSON: '+e.message; err.style.display='block'; }
-      ">Import</button>
+      <button class="btn btn-ghost" id="btn-import-cancel">Cancel</button>
+      <button class="btn btn-primary" id="btn-import-confirm">Import</button>
     </div>
   </div>
 </div>
