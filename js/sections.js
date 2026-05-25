@@ -37,7 +37,7 @@ const Sections = (() => {
   }
 
   function SUBTEXT(text) {
-    return `<p style="margin:0 0 24px;font-size:15px;color:var(--text-2);line-height:1.6;max-width:480px">${text}</p>`;
+    return `<p style="margin:0 auto 24px;font-size:15px;color:var(--text-2);line-height:1.6;max-width:480px">${text}</p>`;
   }
 
   function PILL(text, active = false) {
@@ -2073,7 +2073,7 @@ const Sections = (() => {
           <div style="text-align:center;margin-bottom:48px">
             ${BADGE('Case studies')}
             ${HEADING('Trusted by teams that care about privacy', 32)}
-            ${SUBTEXT('See how companies replaced invasive analytics with Umbra — and got better insights.')}
+            <p style="margin:0 auto 24px;font-size:15px;color:var(--text-2);line-height:1.6;max-width:480px">See how companies replaced invasive analytics with Umbra — and got better insights.</p>
           </div>
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
             ${[
