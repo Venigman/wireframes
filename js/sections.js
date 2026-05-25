@@ -187,7 +187,7 @@ const Sections = (() => {
         <section style="padding:64px var(--sp-5) 0;background:var(--bg);text-align:center;max-width:var(--container);margin:0 auto">
           ${BADGE('Trusted by 2,400+ teams')}
           ${HEADING('Analytics that respect privacy', 42)}
-          <p style="margin:0 auto 32px;font-size:16px;color:var(--text-2);max-width:540px;line-height:1.6">Stop tracking users like criminals. Umbra gives you everything you need, nothing you shouldn't have.</p>
+          <p style="margin:0 auto 32px;font-size:16px;color:var(--text-2);max-width:540px;line-height:1.6">Stop tracking users like criminals. Umbrave gives you everything you need, nothing you shouldn't have.</p>
           <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:40px">
             ${BTN_PRIMARY('Try for free')}
             ${BTN_GHOST('Watch 2 min demo')}
@@ -551,8 +551,8 @@ const Sections = (() => {
   // ─── SECTION: Testimonials ────────────────────────────────────────────────
 
   const TESTIMONIALS = [
-    { name:'Sarah K.', role:'Head of Growth, Vercel', text:'Umbra replaced GA4 overnight. Our legal team finally stopped asking questions.' },
-    { name:'Marcus T.', role:'CTO, Linear', text:'We\'ve tried everything. Umbra is the only tool that works behind an adblocker.' },
+    { name:'Sarah K.', role:'Head of Growth, Vercel', text:'Umbrave replaced GA4 overnight. Our legal team finally stopped asking questions.' },
+    { name:'Marcus T.', role:'CTO, Linear', text:'We\'ve tried everything. Umbrave is the only tool that works behind an adblocker.' },
     { name:'Priya N.', role:'Product Lead, Notion', text:'The dashboard is gorgeous. My team actually looks at analytics now.' },
     { name:'Tom W.', role:'Founder, Loom', text:'Setup took 5 minutes. We had data within seconds. Absolutely wild.' },
     { name:'Anna B.', role:'Engineer, Stripe', text:'Clean API, great docs, zero drama. Ship it.' },
@@ -737,9 +737,9 @@ const Sections = (() => {
   // ─── SECTION: FAQ ─────────────────────────────────────────────────────────
 
   const FAQS = [
-    { q:'Is Umbra really GDPR compliant?', a:'Yes. We collect no personal data, set no cookies, and store no IP addresses. No consent banner required.' },
+    { q:'Is Umbrave really GDPR compliant?', a:'Yes. We collect no personal data, set no cookies, and store no IP addresses. No consent banner required.' },
     { q:'How does cookieless tracking work?', a:'We use a privacy-preserving technique that assigns statistical identifiers without storing anything in the browser.' },
-    { q:'Can I use Umbra on multiple sites?', a:'Yes. Pro and Enterprise plans support multiple sites under one account.' },
+    { q:'Can I use Umbrave on multiple sites?', a:'Yes. Pro and Enterprise plans support multiple sites under one account.' },
     { q:'What happens when I hit my pageview limit?', a:'We\'ll notify you. We won\'t cut off your data — just ask you to upgrade.' },
     { q:'Do you offer a free trial?', a:'Yes, 14 days free on any paid plan. No credit card required.' },
   ];
@@ -916,7 +916,7 @@ const Sections = (() => {
           <div style="text-align:center;margin-bottom:40px">
             <h3 style="margin:0 0 10px;font-size:22px;font-weight:700;color:var(--text)">Start building today</h3>
             <p style="margin:0 0 20px;font-size:13px;color:var(--text-3)">Free tier available. No credit card required.</p>
-            ${BTN_PRIMARY('Try Umbra free')}
+            ${BTN_PRIMARY('Try Umbrave free')}
           </div>
           <div style="border-top:var(--border-w) solid var(--border-sub);padding-top:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;max-width:var(--container);margin:0 auto">
             <span style="font-size:11px;color:var(--text-3)">© 2025 ${_projectName}. All rights reserved.</span>
@@ -941,7 +941,7 @@ const Sections = (() => {
           <div style="text-align:center;margin-bottom:40px">
             ${BADGE('Integrations')}
             ${HEADING('Works with your stack', 32)}
-            <p style="font-size:14px;color:var(--text-2);margin:0 auto;max-width:440px">Connect Umbra to 40+ tools in minutes. No middleware, no fuss.</p>
+            <p style="font-size:14px;color:var(--text-2);margin:0 auto;max-width:440px">Connect Umbrave to 40+ tools in minutes. No middleware, no fuss.</p>
           </div>
           <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:12px;max-width:var(--container);margin:0 auto">
             ${INTEGRATIONS.map(n=>`
@@ -1008,20 +1008,20 @@ const Sections = (() => {
 
   register('comparison-table', 'Comparison table', '<svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 2v10M2 4h10M2 7h10M2 10h10"/></svg>', [
     {
-      label: 'Umbra vs competitors',
+      label: 'Umbrave vs competitors',
       preview: '  Us | GA4 | Mix\n──────────────\n  ✓  | ✗  | ✗',
       render: () => `
         <section style="padding:64px var(--sp-5);background:var(--bg)">
           <div style="text-align:center;margin-bottom:40px">
             ${BADGE('Compare')}
-            ${HEADING('Why teams choose Umbra', 32)}
+            ${HEADING('Why teams choose Umbrave', 32)}
           </div>
           <div style="max-width:760px;margin:0 auto;border-radius:var(--radius);border:var(--border-w) solid var(--border);overflow:hidden">
             <table style="width:100%;border-collapse:collapse;font-size:13px">
               <thead>
                 <tr style="background:var(--bg-card)">
                   <th style="padding:14px 16px;text-align:left;color:var(--text-3);font-weight:400;width:40%">Feature</th>
-                  <th style="padding:14px 16px;text-align:center;color:var(--accent);font-weight:700">Umbra</th>
+                  <th style="padding:14px 16px;text-align:center;color:var(--accent);font-weight:700">Umbrave</th>
                   <th style="padding:14px 16px;text-align:center;color:var(--text-3);font-weight:500">GA4</th>
                   <th style="padding:14px 16px;text-align:center;color:var(--text-3);font-weight:500">Mixpanel</th>
                 </tr>
@@ -1127,7 +1127,7 @@ const Sections = (() => {
         <section style="padding:64px var(--sp-5);background:var(--bg)">
           <div style="text-align:center;margin-bottom:40px">
             ${BADGE('Team')}
-            ${HEADING('The people behind Umbra', 32)}
+            ${HEADING('The people behind Umbrave', 32)}
           </div>
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:var(--container);margin:0 auto">
             ${TEAM.map(m=>`
@@ -1300,7 +1300,7 @@ const Sections = (() => {
         <section style="padding:56px var(--sp-5);background:var(--bg-card);border-top:var(--border-w) solid var(--border)">
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-5);align-items:center;max-width:var(--container);margin:0 auto">
             <div>
-              ${HEADING('The Umbra newsletter', 26)}
+              ${HEADING('The Umbrave newsletter', 26)}
               <p style="font-size:13px;color:var(--text-2);margin:0;line-height:1.6">Privacy, analytics, and product engineering. Weekly. No fluff.</p>
             </div>
             <div style="display:flex;flex-direction:column;gap:10px">
@@ -1455,7 +1455,7 @@ const Sections = (() => {
           <div style="margin-bottom:32px">
             ${BADGE('See it in action')}
             ${HEADING('Watch the 2-minute demo', 32)}
-            <p style="font-size:14px;color:var(--text-2);max-width:420px;margin:0 auto">See how Umbra works from install to first insight.</p>
+            <p style="font-size:14px;color:var(--text-2);max-width:420px;margin:0 auto">See how Umbrave works from install to first insight.</p>
           </div>
           <div style="max-width:760px;margin:0 auto;background:var(--bg-card);border:var(--border-w) solid var(--border);border-radius:var(--radius);overflow:hidden;position:relative">
             <div style="padding-top:56.25%;background:var(--bg-el);position:relative">
@@ -1619,7 +1619,7 @@ const Sections = (() => {
           <div style="width:100%;max-width:380px;background:var(--bg-card);border:var(--border-w) solid var(--border);border-radius:var(--radius);padding:var(--sp-5)">
             <div style="text-align:center;margin-bottom:24px">
               ${LOGO()}
-              <h2 style="margin:12px 0 4px;font-size:20px;font-weight:600;color:var(--text)">Sign in to Umbra</h2>
+              <h2 style="margin:12px 0 4px;font-size:20px;font-weight:600;color:var(--text)">Sign in to Umbrave</h2>
               <p style="margin:0;font-size:13px;color:var(--text-3)">Welcome back</p>
             </div>
             <button style="width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;background:var(--bg-el);border:var(--border-w) solid var(--border);border-radius:var(--radius-sm);font-size:13px;color:var(--text);cursor:pointer;margin-bottom:16px">
@@ -1799,14 +1799,14 @@ const Sections = (() => {
             ${AVATAR('JC','#8957E5')}
             <div>
               <div style="font-size:13px;font-weight:500;color:var(--text)">Jamie Chen</div>
-              <div style="font-size:11px;color:var(--text-3)">CTO at Umbra</div>
+              <div style="font-size:11px;color:var(--text-3)">CTO at Umbrave</div>
             </div>
           </div>
           <div style="background:var(--bg-card);border:var(--border-w) solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:28px;aspect-ratio:16/6;display:flex;align-items:center;justify-content:center">
             <span style="font-size:13px;color:var(--text-3)">Cover image</span>
           </div>
           ${[
-            'When we first started building Umbra, we assumed event ingestion was a solved problem. We were wrong.',
+            'When we first started building Umbrave, we assumed event ingestion was a solved problem. We were wrong.',
             'The challenge wasn\'t throughput — it was latency. Our users expected their dashboards to update the moment an event occurred. That meant processing at the edge, not in a central data center.',
             'We evaluated a dozen approaches before landing on a hybrid model that combines edge workers for initial processing with a regional aggregation layer before writing to our main store.',
           ].map(p=>`<p style="font-size:15px;color:var(--text-2);line-height:1.75;margin-bottom:18px">${p}</p>`).join('')}
@@ -1863,13 +1863,13 @@ const Sections = (() => {
             <div style="display:flex;gap:6px;margin-bottom:24px;font-size:12px;color:var(--text-3)">
               <span>Docs</span><span>/</span><span>Getting started</span><span>/</span><span style="color:var(--text-2)">Introduction</span>
             </div>
-            <h1 style="font-size:28px;font-weight:700;color:var(--text);margin:0 0 16px;line-height:1.3">Introduction to Umbra</h1>
-            <p style="font-size:15px;color:var(--text-2);margin:0 0 24px;line-height:1.7">Umbra is a privacy-first analytics platform that gives you complete visibility into how users interact with your product — without collecting personal data or requiring consent banners.</p>
+            <h1 style="font-size:28px;font-weight:700;color:var(--text);margin:0 0 16px;line-height:1.3">Introduction to Umbrave</h1>
+            <p style="font-size:15px;color:var(--text-2);margin:0 0 24px;line-height:1.7">Umbrave is a privacy-first analytics platform that gives you complete visibility into how users interact with your product — without collecting personal data or requiring consent banners.</p>
             <div style="background:var(--accent-sub);border:var(--border-w) solid var(--accent);border-radius:var(--radius-sm);padding:14px 16px;margin-bottom:24px">
               <p style="margin:0;font-size:13px;color:var(--accent);line-height:1.6"><strong>Quick start:</strong> Add one script tag and you'll have data in under 60 seconds.</p>
             </div>
             <h2 style="font-size:18px;font-weight:600;color:var(--text);margin:0 0 12px">How it works</h2>
-            <p style="font-size:14px;color:var(--text-2);margin:0 0 16px;line-height:1.7">When a user visits your site, Umbra's edge worker captures the event — page view, click, conversion — strips any identifiable information at the network layer, and writes an anonymised event to your dashboard in real time.</p>
+            <p style="font-size:14px;color:var(--text-2);margin:0 0 16px;line-height:1.7">When a user visits your site, Umbrave's edge worker captures the event — page view, click, conversion — strips any identifiable information at the network layer, and writes an anonymised event to your dashboard in real time.</p>
             <div style="display:flex;justify-content:space-between;padding-top:24px;border-top:var(--border-w) solid var(--border);margin-top:8px">
               <span style="font-size:13px;color:var(--text-3)">← Previous</span>
               <a href="#" style="font-size:13px;color:var(--accent);text-decoration:none">Quick start →</a>
@@ -1892,7 +1892,7 @@ const Sections = (() => {
             <p style="font-size:13px;color:var(--text-3);margin:8px 0 0">Last updated: May 12, 2025 · Effective: June 1, 2025</p>
           </div>
           <div style="background:var(--bg-card);border:var(--border-w) solid var(--border);border-radius:var(--radius);padding:16px 20px;margin-bottom:32px">
-            <p style="font-size:13px;color:var(--text-2);line-height:1.6;margin:0">We take your privacy seriously. This policy explains what data we collect, why we collect it, and how you can control it. Umbra is designed to be privacy-first — we collect the minimum data necessary to provide you with a great analytics experience.</p>
+            <p style="font-size:13px;color:var(--text-2);line-height:1.6;margin:0">We take your privacy seriously. This policy explains what data we collect, why we collect it, and how you can control it. Umbrave is designed to be privacy-first — we collect the minimum data necessary to provide you with a great analytics experience.</p>
           </div>
           ${[
             ['1. Information We Collect', 'We collect information you provide directly (name, email, billing details) and data about how you use our service (pages visited, features used, performance metrics). We do not collect personal data about your end-users through our analytics tracking code.'],
@@ -1928,7 +1928,7 @@ const Sections = (() => {
           <div>
             <div style="margin-bottom:32px;padding-bottom:20px;border-bottom:var(--border-w) solid var(--border)">
               <h1 style="font-size:28px;font-weight:700;color:var(--text);margin:0 0 8px">Privacy Policy</h1>
-              <p style="font-size:13px;color:var(--text-3);margin:0">Umbra Analytics Ltd · Registered in Ireland</p>
+              <p style="font-size:13px;color:var(--text-3);margin:0">Umbrave Analytics Ltd · Registered in Ireland</p>
             </div>
             ${[
               ['1. Information We Collect', 'We collect information you provide directly (name, email, billing details) and data about how you use our service. We do not collect personal data about your end-users through our analytics tracking code.'],
@@ -1953,10 +1953,10 @@ const Sections = (() => {
             <span style="font-size:12px;color:var(--text-3)">v2.1 · May 2025</span>
           </div>
           ${[
-            ['Acceptance of Terms', 'By accessing or using Umbra, you agree to be bound by these Terms. If you disagree with any part, you may not access the service.'],
-            ['Description of Service', 'Umbra provides privacy-first web analytics for product teams. We collect anonymised event data on your behalf as a data processor under GDPR Article 28.'],
-            ['Intellectual Property', 'The service and its original content, features, and functionality are and will remain the exclusive property of Umbra Analytics Ltd.'],
-            ['Limitation of Liability', 'In no event shall Umbra, its directors, employees, or agents be liable for any indirect, incidental, or consequential damages arising from your use of the service.'],
+            ['Acceptance of Terms', 'By accessing or using Umbrave, you agree to be bound by these Terms. If you disagree with any part, you may not access the service.'],
+            ['Description of Service', 'Umbrave provides privacy-first web analytics for product teams. We collect anonymised event data on your behalf as a data processor under GDPR Article 28.'],
+            ['Intellectual Property', 'The service and its original content, features, and functionality are and will remain the exclusive property of Umbrave Analytics Ltd.'],
+            ['Limitation of Liability', 'In no event shall Umbrave, its directors, employees, or agents be liable for any indirect, incidental, or consequential damages arising from your use of the service.'],
           ].map(([title, text])=>`
             <div style="margin-bottom:24px">
               <h2 style="font-size:14px;font-weight:600;color:var(--text);margin:0 0 6px;text-transform:uppercase;letter-spacing:.3px">${title}</h2>
@@ -2073,12 +2073,12 @@ const Sections = (() => {
           <div style="text-align:center;margin-bottom:48px">
             ${BADGE('Case studies')}
             ${HEADING('Trusted by teams that care about privacy', 32)}
-            <p style="margin:0 auto 24px;font-size:15px;color:var(--text-2);line-height:1.6;max-width:480px">See how companies replaced invasive analytics with Umbra — and got better insights.</p>
+            <p style="margin:0 auto 24px;font-size:15px;color:var(--text-2);line-height:1.6;max-width:480px">See how companies replaced invasive analytics with Umbrave — and got better insights.</p>
           </div>
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
             ${[
               { logo:'Acme Corp', industry:'E-commerce', metric:'+34%', metricLabel:'conversion lift', quote:'We cut our analytics bundle by 80% and actually understand our funnel better now.', name:'Sara K.', role:'Head of Growth' },
-              { logo:'Novu', industry:'Developer tools', metric:'2.1×', metricLabel:'faster page load', quote:'GDPR compliance used to be a nightmare. With Umbra it\'s a checkbox we never think about.', name:'Tom R.', role:'CTO' },
+              { logo:'Novu', industry:'Developer tools', metric:'2.1×', metricLabel:'faster page load', quote:'GDPR compliance used to be a nightmare. With Umbrave it\'s a checkbox we never think about.', name:'Tom R.', role:'CTO' },
               { logo:'Flowbase', industry:'SaaS', metric:'-62%', metricLabel:'bounce rate', quote:'The funnels revealed a drop-off we\'d been missing for months. Fixed it in a day.', name:'Mia L.', role:'Product Lead' },
             ].map(c=>`
               <div style="background:var(--bg-card);border:var(--border-w) solid var(--border);border-radius:var(--radius);padding:var(--sp-5);display:flex;flex-direction:column;gap:16px">
@@ -2116,7 +2116,7 @@ const Sections = (() => {
               <div style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em">Featured</div>
               <div style="font-size:48px;font-weight:800;color:#fff;line-height:1;margin-bottom:8px">+127%</div>
               <div style="font-size:14px;color:rgba(255,255,255,.8);margin-bottom:24px">revenue attributed to optimized funnels</div>
-              <p style="font-size:13px;color:rgba(255,255,255,.85);line-height:1.6;margin:0 0 24px">"Umbra replaced three separate analytics tools. The privacy angle alone unlocked enterprise deals we couldn't close before."</p>
+              <p style="font-size:13px;color:rgba(255,255,255,.85);line-height:1.6;margin:0 0 24px">"Umbrave replaced three separate analytics tools. The privacy angle alone unlocked enterprise deals we couldn't close before."</p>
               <div style="display:flex;align-items:center;gap:10px">
                 ${AVATAR('J', 'rgba(255,255,255,.3)')}
                 <div><div style="font-size:12px;font-weight:600;color:#fff">James Park</div><div style="font-size:11px;color:rgba(255,255,255,.7)">VP Product · Stripe</div></div>
@@ -2153,7 +2153,7 @@ const Sections = (() => {
             ${AVATAR('AL', 'var(--accent)')}
             <div style="flex:1">
               <div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:4px">Alex Laurent</div>
-              <div style="font-size:12px;color:var(--text-3);margin-bottom:10px">Head of Developer Relations · Umbra</div>
+              <div style="font-size:12px;color:var(--text-3);margin-bottom:10px">Head of Developer Relations · Umbrave</div>
               <p style="font-size:13px;color:var(--text-2);line-height:1.6;margin:0">Alex writes about privacy-first engineering, analytics patterns, and building products people trust. Previously at Plausible and Cloudflare.</p>
             </div>
           </div>
@@ -2219,7 +2219,7 @@ const Sections = (() => {
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
             ${[
               { icon:'🔒', title:'Privacy first', desc:'We don\'t collect what we don\'t need. Every feature is designed with data minimalism as a constraint, not an afterthought.' },
-              { icon:'⚡', title:'Speed is a feature', desc:'A tracking script that slows down your site is a bad trade. Umbra adds under 1KB and never blocks rendering.' },
+              { icon:'⚡', title:'Speed is a feature', desc:'A tracking script that slows down your site is a bad trade. Umbrave adds under 1KB and never blocks rendering.' },
               { icon:'🌍', title:'Open by default', desc:'Our data model is documented, our methodology is public, and our code is auditable. No black boxes.' },
               { icon:'🤝', title:'Honest metrics', desc:'We don\'t gamify vanity numbers. We show what matters and make it easy to understand what to do next.' },
               { icon:'⚖️', title:'Compliance as baseline', desc:'GDPR, CCPA, and PECR aren\'t checkboxes. They\'re the floor. We try to go further.' },
@@ -2245,7 +2245,7 @@ const Sections = (() => {
           <div style="display:flex;flex-direction:column">
             ${[
               { n:'01', title:'Privacy first', desc:'Every feature is designed with data minimalism as a constraint, not an afterthought.' },
-              { n:'02', title:'Speed is a feature', desc:'Umbra adds under 1KB and never blocks rendering. A slow analytics script is a bad trade.' },
+              { n:'02', title:'Speed is a feature', desc:'Umbrave adds under 1KB and never blocks rendering. A slow analytics script is a bad trade.' },
               { n:'03', title:'Open by default', desc:'Our data model is documented, methodology is public, code is auditable. No black boxes.' },
               { n:'04', title:'Honest metrics', desc:'We don\'t gamify vanity numbers. We show what matters and what to do next.' },
             ].map((v,i,arr)=>`

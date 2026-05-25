@@ -40,7 +40,7 @@ const Visuals = (() => {
 
   // ── 1. Dashboard ─────────────────────────────
   register('dashboard','Dashboard', () => `
-    ${WINDOW('app.umbra.io/dashboard', `
+    ${WINDOW('app.umbrave.io/dashboard', `
       <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;">
         ${STAT('Visitors','12,847')}${STAT('Views','38,291')}${STAT('Bounce','42.1%')}
       </div>
@@ -168,11 +168,11 @@ const Visuals = (() => {
   register('code','Code snippet', () =>
     WINDOW('terminal', `
       <pre style="font-family:var(--font-mono,'JetBrains Mono',monospace);font-size:12px;line-height:1.8;color:var(--text-2);overflow:auto;">
-<span style="color:#7EE787">// Install Umbra</span>
-<span style="color:var(--accent)">npm install</span> umbra-analytics
+<span style="color:#7EE787">// Install Umbrave</span>
+<span style="color:var(--accent)">npm install</span> umbrave-analytics
 
 <span style="color:#7EE787">// Add to your app</span>
-<span style="color:var(--accent)">import</span> { umbra } <span style="color:var(--accent)">from</span> <span style="color:#A5D6FF">'umbra-analytics'</span>
+<span style="color:var(--accent)">import</span> { umbra } <span style="color:var(--accent)">from</span> <span style="color:#A5D6FF">'umbrave-analytics'</span>
 
 umbra.<span style="color:#FFA657">init</span>({ siteId: <span style="color:#A5D6FF">'abc123'</span> })
 umbra.<span style="color:#FFA657">track</span>(<span style="color:#A5D6FF">'signup'</span>, { plan: <span style="color:#A5D6FF">'pro'</span> })</pre>`));
@@ -197,7 +197,7 @@ umbra.<span style="color:#FFA657">track</span>(<span style="color:#A5D6FF">'sign
         AI Assistant
       </div>
       <div style="padding:12px;display:flex;flex-direction:column;gap:10px;max-height:180px;overflow:hidden;">
-        <div style="display:flex;gap:8px;"><div style="width:26px;height:26px;border-radius:50%;background:var(--accent-sub);color:var(--accent);font-size:11px;font-weight:700;flex-shrink:0;display:flex;align-items:center;justify-content:center;">U</div><div style="background:var(--bg-el);border:var(--border-w) solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:12px;color:var(--text-2);">How do I add a custom event to Umbra?</div></div>
+        <div style="display:flex;gap:8px;"><div style="width:26px;height:26px;border-radius:50%;background:var(--accent-sub);color:var(--accent);font-size:11px;font-weight:700;flex-shrink:0;display:flex;align-items:center;justify-content:center;">U</div><div style="background:var(--bg-el);border:var(--border-w) solid var(--border);border-radius:var(--radius-sm);padding:8px 10px;font-size:12px;color:var(--text-2);">How do I add a custom event to Umbrave?</div></div>
         <div style="display:flex;gap:8px;flex-direction:row-reverse;"><div style="width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:11px;font-weight:700;flex-shrink:0;display:flex;align-items:center;justify-content:center;">AI</div><div style="background:var(--accent-sub);border:var(--border-w) solid rgba(47,129,247,.2);border-radius:var(--radius-sm);padding:8px 10px;font-size:12px;color:var(--text);">Call <code style="background:var(--bg-el);padding:1px 5px;border-radius:3px;">umbra.track('event-name', payload)</code> anywhere in your code. No setup needed.</div></div>
       </div>
       <div style="padding:8px;border-top:var(--border-w) solid var(--border);">
